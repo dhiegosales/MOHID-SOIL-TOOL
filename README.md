@@ -14,47 +14,6 @@ Processing tool for EMBRAPA soil texture raster and determination of van Genucht
   Therefore, MOHID SOIL TOOL can be described as a tool developed for the Windows 10/11 x64 operating system, with a graphical interface, functions programmed in the Python 3 language and which has the purpose of: (i) importing and processing the testural parameters of the soil, made available by EMBRAPA; (ii) calculate the hydraulic properties for each type of soil present in the user's watershed, via the rosetta-soil API in Python; (iii) build and export the input ASCII file for the MOHID Land hydrological model, in addition to accessory files. This tool aims to make the processing and preparation of input data for MOHID Land more agile and intuitive, saving time in the development of the hydrological model.
 
 
-FEATURES
-
-Summary:
-This program was designed to provide de hydraulic soil parameters to Brazil area, using the files provided by Embrapa http://geoinfo.cnps.embrapa.br/layers/?limit=100&offset=0&undefined=undefined&title__icontains=brasil.
-Functionality:
-This program calculates the mean of sand, clay, silt, and density from Embrapa raster by soil type shapefile provided by Embrapa. Then, it uses the information of these parameters to estimate the hydraulic soil parameters: theta_r, theta_s, alpha, npar and Ksat, using Rosetta Model.
-The outputs available are a soil type shapefile (the calcs are presented in the attribute table), an excel sheet (.xlxs) with the parameters and properties to all type of soils available and MOHID ASCII file (.txt).
-
-USER OPTIONS:
--Field 'MOHID SOIL ID': if the user project in MOHID has more than 1 soil layer, the user might run the MOHID SOIL TOOL several times. It means that in each running the user must define the SOIL ID (continuing the numbering from the last run) in order to numbering soil type and layers being in sequence.
-By default, the MOHID SOIL TOOL starts with 1.
-Example: If the user first layer has 5 soil types, it means that the SECOND running must be done with the begging from 6 - MOHID SOIL ID= 6 (in order to start the second layer soil type count from 6).;
--Field 'Soil Layer Depth': The user can define a identification for each soil layer in the MOHID project. By default, the MOHID SOIL TOOL uses as identification the first raster depth available in EMBRAPA database: '0-5cm'. It is useful uses a depth as identification, but the user can change it to any identification.
-
-INPUT FILES:
--Watershed shapefile (user study area);
--Soil type map shapefile provided by Embrapa. It is permitted to use Brazil shapefile (low resolution) or Rio de Janeiro shapefile (high resolution). If the user study area is not completely inserted in Rio de Janeiro Embrapa map, the user must use de Brazil Embrapa map;
--Brasil sand raster provided by Embrapa;
--Brasil silt raster provided by Embrapa;
--Brasil clay raster provided by Embrapa;
--Density sand raster provided by Embrapa.
-
-CLUSTERING DATA: the user must choose de statistic that will be used to clustering EMBRAPA parameter in each soil polygon. If the user does not choose anyone, the mean will be chosen as default.
-
-PROCESS:
-
-Processing files.
-This step will clip the soil map shapefile provided using the watershed provided by user as a mask and calculate the mean of sand, clay, silt and density from the raster provided.
-Then, a DataFrame will be generated with the percent of sand, silt, clay and density by the type of soil available in watershed shape.
-Soil parameters estimation. This step will estimate the hydraulic soil parameters: theta_r, theta_s, alpha, npar and Ksat, from Rosetta Model (available Rosetta version 1, 2 or 3).
-Export files. It is possible export a soil type shapefile, a excel sheet with the parameters and MOHID land txt file.
-It will be created a directory named 'Outputs' in the same directory of this .exe in order to salve the files.
-Notes:
--All input files must be in the same directory of this executable.
--It is mandatory to type the file extension to all input files (shapetile must be: *.shp extension and rasters must be: *.tif).
--Do not type any extension in the file name to export field, because the same output name given will be used in all export files.
--If there was a directory called 'Outputs' the program will overwrite any file that is inside. Please save the files before running the MOHID Soil Tool again.
--The user study area must be contained in the soil Embrapa Soil type provided (Brazil or Rio de Janeiro)
--The program saves a history file in the same directory of the executable. So the user can checked if any things goes wrong. It is important to say that the file is overlapped in each execution.
--The program saves a file with the history of all file names informed by user in order to get easer run again. If the user deletes this file, the file name fields will be filled up with the default values.
-
 
 Referências
 
