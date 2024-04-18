@@ -1,0 +1,35 @@
+Bulk density raster:
+Layer 0-5cm:     http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_bulk_density_0_5cm_pred
+Layer 5-15cm:    http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_bulk_density_5_15cm_pred
+Layer 15-30cm:   http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_bulk_density_15_30cm_pred
+Layer 30-60cm:   http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_bulk_density_30_60cm_pred
+Layer 60-100cm:  http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_bulk_density_60_100cm_pred
+Layer 100-200cm: http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_bulk_density_100_200cm_pred
+
+Silte raster:
+Layer 0-5cm:     http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_silt_content_0_5cm_pred
+Layer 5-15cm:    http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_silt_content_5_15cm_pred
+Layer 15-30cm:   http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_silt_content_15_30cm_pred
+Layer 30-60cm:   http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_silt_content_30_60cm_pred
+Layer 60-100cm:  http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_silt_content_60_100cm_pred
+Layer 100-200cm: http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_silt_content_100_200cm_pred
+
+Sand raster:     http://geoinfo.cnps.embrapa.br/maps/3291
+Layer 0-5cm:     http://geoinfo.cnps.embrapa.br/documents/3319
+Layer 5-15cm:    http://geoinfo.cnps.embrapa.br/documents/3321
+Layer 15-30cm:   http://geoinfo.cnps.embrapa.br/documents/3323 
+Layer 30-60cm:   http://geoinfo.cnps.embrapa.br/documents/3325 
+Layer 60-100cm:  http://geoinfo.cnps.embrapa.br/documents/3327 
+Layer 100-200cm: http://geoinfo.cnps.embrapa.br/documents/3329
+
+Clay raster:
+Layer 0-5cm:     http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_clay_content_0_5cm_pred
+Layer 5-15cm:    http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_clay_content_5_15cm_pred
+Layer 15-30cm:   http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_clay_content_15_30cm_pred
+Layer 30-60cm:   http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_clay_content_30_60cm_pred
+Layer 60-100cm:  http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_clay_content_60_100cm_pred
+Layer 100-200cm: http://geoinfo.cnps.embrapa.br/layers/geonode%3Abr_90m_clay_content_100_200cm_pred
+
+Reference
+Vasques, G. M., Coelho, M. R., Dart, R. O., Cintra, L. C., & Baca, J. F. M. (2021a). Soil Clay, Silt and Sand Content Maps for Brazil at 0-5, 5-15, 15-30, 30-60, 60-100 and 100-200 cm Depth Intervals with 90 m Spatial Resolution, Embrapa Solos, Rio de Janeiro, Brazil.
+Vasques, G. M., Coelho, M. R., Dart, R. O., Cintra, L. C., & Baca, J. F. M. (2021b). Soil Bulk Density Maps for Brazil at 0-5, 5-15, 15-30, 30-60, 60-100 and 100-200 cm Depth Intervals with 90 m Spatial Resolution, Embrapa Solos, Rio de Janeiro, Brazil.
