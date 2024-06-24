@@ -1,5 +1,8 @@
 # MOHID SOIL TOOL (MST) User Manual
 
+## Version Information
+This manual is for **MOHID SOIL TOOL Version 2.0.0**. The previous version, **MOHID SOIL TOOL Version 1.0.0**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v1.0.0).
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Detailed Description of MOHID SOIL TOOL](#detailed-description-of-mohid-soil-tool)
@@ -16,6 +19,7 @@
 9. [Troubleshooting](#troubleshooting)
 10. [Usage Guidelines](#usage-guidelines)
 11. [Conclusion](#conclusion)
+12. [Citation](#citation)
 
 ## Introduction
 Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOOL (MST), is designed to process soil texture data and estimate hydraulic soil parameters for hydrological modeling. Developed using Python 3, MST features a graphical user interface (GUI) and is compatible with Windows 10/11 x64 operating systems. The executable version of MST can be accessed from the GitHub repository at [MOHID SOIL TOOL](https://github.com/dhiegosales/MOHID_SOIL_TOOL), ensuring accessibility and ease of use. MST was specifically developed to support hydrological studies by providing precise soil parameter inputs required for models like MOHID-Land (Sales et al., 2024).
@@ -180,6 +184,12 @@ The MST interface is divided into several sections and contains numerous buttons
 
 ## Conclusion
 The MOHID SOIL TOOL is a powerful utility for hydrological studies, providing accurate soil parameter calculations necessary for advanced modeling. By following this manual, users can efficiently operate the tool and enhance their hydrological analysis.
+
+## Citation
+If you use this software, please cite it as follows:
+
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 2.0.0) [Computer software]. https://github.com/dhiegosales/MOHID_SOIL_TOOL. Accessed xx xxx xxxx.
+
 
 For any issues or further assistance, please contact Dhiego da Silva Sales at [dhiego.sales@outlook.com](mailto:dhiego.sales@outlook.com).
 
