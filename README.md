@@ -1,7 +1,9 @@
 # MOHID SOIL TOOL (MST) User Manual
 
 ## Version Information
-This manual is for **MOHID SOIL TOOL Version 2.0.0**. The previous version, **MOHID SOIL TOOL Version 1.0.0**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v1.0.0).
+This manual is for **MOHID SOIL TOOL Versions 2.0.0 and 3.0.0**. 
+The previous version, **MOHID SOIL TOOL Version 1.0.0**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v1.0.0).
+The previous version, **MOHID SOIL TOOL Version 2.0.0**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v2.0.0).
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -50,7 +52,7 @@ MOHID-Land is a hydrological modeling system utilizing the finite volume method 
 ### Operational Algorithm
 The operational algorithm ensures precise processing from data importation to final export, supporting robust scientific analysis and streamlining workflows for water resource studies.
 
-![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID_SOIL_TOOL/blob/main/Algorithm_v.2.0.0.png)
+![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/Algorithm_v.2.0.0_v.3.0.0.png)
 
 [Back to Top](#mohid-soil-tool-mst-user-manual)
 
@@ -62,7 +64,7 @@ The operational algorithm ensures precise processing from data importation to fi
 
 ## Installation
 **Downloading the Executable:**
-1. Access the [download link](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/download/v2.0.0/MOHID_SOIL_TOOL_version2_0_0.zip).
+1. Access the [download link](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/download/v3.0.0/MOHID_SOIL_TOOL_version3_0_0.zip).
 2. Extract the executable files to a folder of your choice.
 
 **Initial Setup:**
@@ -180,7 +182,7 @@ The MST interface is divided into several sections and contains numerous buttons
 [Back to Top](#mohid-soil-tool-mst-user-manual)
 
 ## Conclusion
-MOHID SOIL TOOL (MST) Version 2.0.0 provides a robust solution for estimating soil hydraulic parameters essential for hydrological modeling using MOHID-Land. Its user-friendly interface, comprehensive data processing capabilities, and integration with Rosetta API ensure accurate parameterization for varied hydrological conditions.
+MOHID SOIL TOOL (MST) Versions 2.0.0 and 3.0.0 provide a robust solution for estimating soil hydraulic parameters essential for hydrological modeling using MOHID-Land. Its user-friendly interface, comprehensive data processing capabilities, and integration with Rosetta API ensure accurate parameterization for varied hydrological conditions.
 
 [Back to Top](#mohid-soil-tool-mst-user-manual)
 
