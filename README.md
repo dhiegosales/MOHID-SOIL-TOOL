@@ -1,9 +1,9 @@
 # MOHID SOIL TOOL (MST) User Manual
 
 ## Version Information
-This manual is for **MOHID SOIL TOOL Versions 2.0.0 and 3.0.0**.  <br><br>
-The previous version, **MOHID SOIL TOOL Version 1.0.0**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v1.0.0).  
-The previous version, **MOHID SOIL TOOL Version 2.0.0**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v2.0.0).
+This manual applies to **MOHID SOIL TOOL [versions 2.0.0 and above]**.  <br><br>
+The previous version, **MOHID SOIL TOOL [Version 1.0.0]**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v1.0.0).  
+The previous version, **MOHID SOIL TOOL [Version 2.0.0]**, is also available for download [here](https://github.com/dhiegosales/MOHID_SOIL_TOOL/releases/tag/v2.0.0).
 
 ## Table of Contents
 1. [Introduction](#introduction)
