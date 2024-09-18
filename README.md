@@ -145,12 +145,23 @@ Open the software and configure paths to shapefiles and rasters according to you
 - **Adjusting Parameters:**
   - Users can adjust the VGM parameters by applying multiplication factors to θr, θs, α, n, and Ksat, enhancing model customization.
 
+### Soil Texture Classification
+- **New in Version 3.0.0:**
+  - Soil texture classification is now integrated, allowing the program to automatically determine the texture class of each soil in the watershed.
+  - The classification results are included in both the Excel report and the attributes table of the exported Shapefile, providing better soil data analysis.
+
+- **Soil Texture Triangle:**
+  Below is the soil texture triangle used in the program for classification:
+
+  ![Soil Texture Triangle](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/Textural_Triangle_for_Soil_Classification.png)
+
 ### File Export
 - **Export Options:**
   - MST allows exporting the results as shapefiles, Excel spreadsheets, or ASCII files compatible with MOHID-Land.
   - Results include clipped soil type shapefiles, calculated parameter values, and formatted ASCII files.
 
 [Back to Top](#mohid-soil-tool-mst-user-manual)
+
 
 ## User Interface Overview
 The MST interface is divided into several sections and contains numerous buttons and options, enabling step-by-step progress through the data processing workflow.
