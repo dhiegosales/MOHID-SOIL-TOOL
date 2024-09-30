@@ -1,5 +1,3 @@
-# MOHID SOIL TOOL (MST) User Manual
-
 ## Version Information
 This manual applies to **MOHID SOIL TOOL [versions 4.0.0]**.  <br><br>
 The previous version, **MOHID SOIL TOOL [Version 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User%20Manual).  
@@ -75,7 +73,9 @@ MOHID-Land is a hydrological modeling system utilizing the finite volume method 
 
   ![Soil Texture Triangle](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/Textural_Triangle_for_Soil_Classification.png)
            
-**c) Soil Compaction Assessment:** This module aims to simulate soil compaction, a crucial process that influences various physical and chemical properties of the soil, such as its density, porosity, and water retention capacity. The simulation is conducted by reading data from a table that contains information about the soil and assigning a 'Density Multiplier' that represents the desired level of compaction.
+**c) Soil Compaction Assessment:** 
+
+This module aims to simulate soil compaction, a crucial process that influences various physical and chemical properties of the soil, such as its density, porosity, and water retention capacity. The simulation is conducted by reading data from a table that contains information about the soil and assigning a 'Density Multiplier' that represents the desired level of compaction.
 
 Upon initiating the simulation, the system reads the table and sets a default value of 1 for the 'Density Multiplier,' indicating no compaction. This value can be adjusted based on the specific conditions of the soil being modeled. After reading the data, applying the multiplier allows the system to calculate the new density of the soil, reflecting the effects of compaction. This step is essential, as variations in density simulate the impact of compaction, which can influence soil permeability, nutrient availability, and structural stability in engineering projects.
 
@@ -89,7 +89,7 @@ Upon initiating the simulation, the system reads the table and sets a default va
 ### Operational Algorithm
 The operational algorithm ensures precise processing from data importation to final export, supporting robust scientific analysis and streamlining workflows for water resource studies.
 
-![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/Algorithm_v.2.0.0_v.3.0.0.png)
+![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v.2.0.0_and_v.3.0.0_Algorithm.png?raw=true)
 
 [Back to Top](#mohid-soil-tool-mst-user-manual)
 
