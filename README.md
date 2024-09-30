@@ -56,6 +56,7 @@ MOHID-Land is a hydrological modeling system utilizing the finite volume method 
       - Brazil silt raster (provided by Embrapa)
       - Brazil clay raster (provided by Embrapa)
       - Density raster (provided by Embrapa)
+        
 **b) Processing Input Files:** The tool clips soil type shapefiles using the watershed shapefile as a mask and calculates percentages of sand, silt, clay, and density for each soil polygon within the watershed folowuing these steps:
    - Processing Shapefiles:
      - The program reads and processes shapefiles for soil data.
