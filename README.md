@@ -1,6 +1,6 @@
 ## Version Information
 This manual applies to **MOHID SOIL TOOL [versions 4.0.0]**.  <br><br>
-The previous version, **MOHID SOIL TOOL [Version 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User%20Manual).  
+The previous version, **MOHID SOIL TOOL [Version 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User_Manual.md).  
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -19,14 +19,14 @@ The previous version, **MOHID SOIL TOOL [Version 2.0.0 and 3.0.0]**, can be acce
 ## Introduction
 Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOOL (MST), is designed to process soil texture data and estimate hydraulic soil parameters for hydrological modeling. Developed using Python 3, MST features a graphical user interface (GUI) and is compatible with Windows 10/11 x64 operating systems. The executable version of MST can be accessed from the GitHub repository at [MOHID SOIL TOOL](https://github.com/dhiegosales/MOHID_SOIL_TOOL), ensuring accessibility and ease of use. MST was specifically developed to support hydrological studies by providing precise soil parameter inputs required for models like MOHID-Land.
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 
 ## System Requirements
 - **Operating System:** Windows 10/11 x64
 - **Software Requirements:** Executable available for download, no additional installation required.
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## Installation
 **Downloading the Executable:**
@@ -36,7 +36,7 @@ Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOO
 **Initial Setup:**
 - No software installation is required. Simply run the downloaded file (`MOHID_SOIL_TOOL.exe`).
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## Detailed Description of MOHID SOIL TOOL
 
@@ -91,7 +91,7 @@ The operational algorithm ensures precise processing from data importation to fi
 
 ![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v.2.0.0_and_v.3.0.0_Algorithm.png?raw=true)
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 
 ## Download Data from Embrapa
@@ -138,7 +138,7 @@ Open the software and configure paths to shapefiles and rasters according to you
       - [60-100cm](http://geoinfo.cnps.embrapa.br/documents/3296)
       - [100-200cm](http://geoinfo.cnps.embrapa.br/documents/3297)
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## User Interface Overview
 The MST interface is divided into several sections and contains numerous buttons and options, enabling step-by-step progress through the data processing workflow.
@@ -164,7 +164,7 @@ The MST interface is divided into several sections and contains numerous buttons
 - **Roseta Hydraulic Parameters Calibration:** Fields to adjust each VGM parameter are provided. Then a 'Multiply' buttun is available to perfirme the multiplying operation.
 - **Export Files:** Users can specify the file name and browse directory for export, along with the output file format (shapefile, excel report, MOHID ASCII).
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## Troubleshooting
 - If the program closes unexpectedly or freezes, please check the following:<br>
@@ -176,24 +176,27 @@ a) Make sure your antivirus is not blocking the program. If necessary, disable t
 If the exported shapefile is only partially filled (incorrect size), verify the following:<br>
 a) Ensure that the user-provided shapefile (study area) is fully contained within the provided soil type map shapefile.<br><br>
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## Usage Guidelines
 - Always start by importing the watershed shapefile and corresponding soil type shapefiles.
 - Follow the process step-by-step: import files, process data, calculate parameters, adjust factors, and export results.
 - Regularly update the software from the GitHub repository to ensure compatibility and access to new features.
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## Conclusion
 MOHID SOIL TOOL (MST) Version 4.0.0 offers a comprehensive solution for calculating and adjusting soil hydraulic parameters, a crucial step in hydrological modeling using MOHID-Land. It can also simulate compaction conditions by modifying density values. Its intuitive interface, robust data processing capabilities, and seamless integration with the Rosetta API ensure accurate parameterization for diverse hydrological scenarios.
 
-[Back to Top](#mohid-soil-tool-mst-user-manual)
+[Back to Top](#table-of-contents)
 
 ## Citation
 If you use this software, please cite it as follows:
 
 Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 4.0.0) [Computer software]. https://github.com/dhiegosales/MOHID-SOIL-TOOL. Accessed xx xxx xxxx.
+
+[Back to Top](#table-of-contents)
+
 
 
 For any issues or further assistance, please contact Dhiego da Silva Sales at [dhiego.sales@outlook.com](mailto:dhiego.sales@outlook.com).
