@@ -52,7 +52,7 @@ MOHID-Land is a hydrological modeling system utilizing the finite volume method 
 ### Operational Algorithm
 The operational algorithm ensures precise processing from data importation to final export, supporting robust scientific analysis and streamlining workflows for water resource studies.
 
-![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/Algorithm_v.2.0.0_v.3.0.0.png)
+![MOHID SOIL TOOL Algorithm](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v.2.0.0_and_v.3.0.0_Algorithm.png)
 
 [Back to Top](#mohid-soil-tool-mst-user-manual)
 
@@ -166,7 +166,7 @@ Open the software and configure paths to shapefiles and rasters according to you
 ## User Interface Overview
 The MST interface is divided into several sections and contains numerous buttons and options, enabling step-by-step progress through the data processing workflow.
 
-![MST GUI](https://github.com/dhiegosales/MOHID_SOIL_TOOL/blob/main/GUI.png)
+![MST GUI](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_GUI.png)
 
 **Menus and Options:**
 
