@@ -6,15 +6,15 @@ The previous version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can be acc
 1. [Introduction](#introduction)
 2. [System Requirements](#system-requirements)
 4. [Installation](#installation)
-5. [Download Data from Embrapa](#download-data-from-embrapa)
 6. [Detailed Description of MOHID SOIL TOOL](#detailed-description-of-mohid-soil-tool)
    - [Integration with MOHID-Land](#integration-with-mohid-land)
    - [Main Features and Workflow](#main-features-and-workflow)
 7. [User Interface Overview](#user-interface-overview)
-8. [Troubleshooting](#troubleshooting)
-9. [Usage Guidelines](#usage-guidelines)
-10. [Conclusion](#conclusion)
-11. [Citation](#citation)
+9. [Troubleshooting](#troubleshooting)
+10. [Usage Guidelines](#usage-guidelines)
+11. [Download Data from Embrapa](#download-data-from-embrapa)
+12. [Conclusion](#conclusion)
+13. [Citation](#citation)
 
 ## Introduction
 Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOOL (MST), is designed to process soil texture data and estimate hydraulic soil parameters for hydrological modeling. Developed using Python 3, MST features a graphical user interface (GUI) and is compatible with Windows 10/11 x64 operating systems. The executable version of MST can be accessed from the GitHub repository at [MOHID SOIL TOOL](https://github.com/dhiegosales/MOHID_SOIL_TOOL), ensuring accessibility and ease of use. MST was specifically developed to support hydrological studies by providing precise soil parameter inputs required for models like MOHID-Land.
@@ -93,6 +93,57 @@ The operational algorithm ensures precise processing from data importation to fi
 
 [Back to Top](#table-of-contents)
 
+## User Interface Overview
+The MST interface is divided into several sections and contains numerous buttons and options, enabling step-by-step progress through the data processing workflow.
+
+![MST GUI](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v4.0.0_GUI.png)
+
+**Menus and Options:**
+- **Help:** A help menu is available with a 'Instructions', 'Troblueshooting' and  'About' option to assist user in MOHID Soil Tool using.
+- **Import Files:** Users can browse and load their watershed and soil type shapefiles, as well as select the horizons for data processing (1 to 6 horizons). A Help menu is available to assist user to provide Soil type map from differents sources. For each horizon there is a specific window to get paths.
+- **Process Files:** Options for clustering raster data into each soil type polygon using mean, median, max, or min statistics are available. A radio button is available for chosing these statistics.
+- **Soil Compaction Assesment:** A Help menu is available to assist user to simulate compaction. This block have two buttons:<br>
+   - Read Table:
+      - This button is used to read the data from the table and assign a value to the 'Density Multiplier' field for simulating compaction.
+      - The default compaction field is set to 1, which represents 'no compaction.
+      - Click this button to start reading the table and applying the corresponding values.
+      - **IMPORTANT: Once the 'Read Table' button is enabled, you can consult the results table at each subsequent step as the other functions are performed. This allows you to see the changes in real-time***.
+   - Multiply:
+      - After reading the table, use this button to multiply the density factor values by the value that was previously assigned.
+      - Attention: You only need to click this button if there are changes in the compaction field. If there are no changes in the table, there is no need to click 'Multiply'.
+      - This step is important to calculate the new density considering the desired compaction.
+      - Click this button after reading the table to perform the necessary calculations.
+- **Rosetta Hydraulic Soil Parameter Estiamtion:** A radio button is available for Users select the version of Rosetta to be used for hydraulic parameter calculation. Than the 'calculate' button is resonsable for consulting ROsetta API in order to calculate hydraulic paramteres.
+- **Roseta Hydraulic Parameters Calibration:** Fields to adjust each VGM parameter are provided. Then a 'Multiply' buttun is available to perfirme the multiplying operation.
+- **Export Files:** Users can specify the file name and browse directory for export, along with the output file format (shapefile, excel report, MOHID ASCII).
+
+[Back to Top](#table-of-contents)
+
+
+## Troubleshooting
+- If the program closes unexpectedly or freezes, please check the following:<br>
+a) Ensure that the input file names are correct.<br>
+b) Verify that none of the input files are corrupted (we recommend testing all files in a GIS software like QGIS).<br>
+c) Ensure no file in the export directory is not open with the same name as the one you are trying to save.<br><br>
+If so, close the file before saving again. If the program fails to open, check the following:<br>
+a) Make sure your antivirus is not blocking the program. If necessary, disable the antivirus while running the MOHID SOIL TOOL.<br><br>
+If the exported shapefile is only partially filled (incorrect size), verify the following:<br>
+a) Ensure that the user-provided shapefile (study area) is fully contained within the provided soil type map shapefile.<br><br>
+
+[Back to Top](#table-of-contents)
+
+## Usage Guidelines
+- Always start by importing the watershed shapefile and corresponding soil type shapefiles.
+- Follow the process step-by-step: import files, process data, calculate parameters, adjust factors, and export results.
+- Regularly update the software from the GitHub repository to ensure compatibility and access to new features.
+
+[Back to Top](#table-of-contents)
+
+## Conclusion
+MOHID SOIL TOOL (MST) Version 4.0.0 offers a comprehensive solution for calculating and adjusting soil hydraulic parameters, a crucial step in hydrological modeling using MOHID-Land. It can also simulate compaction conditions by modifying density values. Its intuitive interface, robust data processing capabilities, and seamless integration with the Rosetta API ensure accurate parameterization for diverse hydrological scenarios.
+
+[Back to Top](#table-of-contents)
+
 
 ## Download Data from Embrapa
 Open the software and configure paths to shapefiles and rasters according to your data sources. For downloading necessary shapefiles and raster data from Embrapa, use the following links:
@@ -137,56 +188,6 @@ Open the software and configure paths to shapefiles and rasters according to you
       - [30-60cm](http://geoinfo.cnps.embrapa.br/documents/3295)
       - [60-100cm](http://geoinfo.cnps.embrapa.br/documents/3296)
       - [100-200cm](http://geoinfo.cnps.embrapa.br/documents/3297)
-
-[Back to Top](#table-of-contents)
-
-## User Interface Overview
-The MST interface is divided into several sections and contains numerous buttons and options, enabling step-by-step progress through the data processing workflow.
-
-![MST GUI](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v4.0.0_GUI.png)
-
-**Menus and Options:**
-- **Help:** A help menu is available with a 'Instructions', 'Troblueshooting' and  'About' option to assist user in MOHID Soil Tool using.
-- **Import Files:** Users can browse and load their watershed and soil type shapefiles, as well as select the horizons for data processing (1 to 6 horizons). A Help menu is available to assist user to provide Soil type map from differents sources. For each horizon there is a specific window to get paths.
-- **Process Files:** Options for clustering raster data into each soil type polygon using mean, median, max, or min statistics are available. A radio button is available for chosing these statistics.
-- **Soil Compaction Assesment:** A Help menu is available to assist user to simulate compaction. This block have two buttons:<br>
-   - Read Table:
-      - This button is used to read the data from the table and assign a value to the 'Density Multiplier' field for simulating compaction.
-      - The default compaction field is set to 1, which represents 'no compaction.
-      - Click this button to start reading the table and applying the corresponding values.
-      - **IMPORTANT: Once the 'Read Table' button is enabled, you can consult the results table at each subsequent step as the other functions are performed. This allows you to see the changes in real-time***.
-   - Multiply:
-      - After reading the table, use this button to multiply the density factor values by the value that was previously assigned.
-      - Attention: You only need to click this button if there are changes in the compaction field. If there are no changes in the table, there is no need to click 'Multiply'.
-      - This step is important to calculate the new density considering the desired compaction.
-      - Click this button after reading the table to perform the necessary calculations.
-- **Rosetta Hydraulic Soil Parameter Estiamtion:** A radio button is available for Users select the version of Rosetta to be used for hydraulic parameter calculation. Than the 'calculate' button is resonsable for consulting ROsetta API in order to calculate hydraulic paramteres.
-- **Roseta Hydraulic Parameters Calibration:** Fields to adjust each VGM parameter are provided. Then a 'Multiply' buttun is available to perfirme the multiplying operation.
-- **Export Files:** Users can specify the file name and browse directory for export, along with the output file format (shapefile, excel report, MOHID ASCII).
-
-[Back to Top](#table-of-contents)
-
-## Troubleshooting
-- If the program closes unexpectedly or freezes, please check the following:<br>
-a) Ensure that the input file names are correct.<br>
-b) Verify that none of the input files are corrupted (we recommend testing all files in a GIS software like QGIS).<br>
-c) Ensure no file in the export directory is not open with the same name as the one you are trying to save.<br><br>
-If so, close the file before saving again. If the program fails to open, check the following:<br>
-a) Make sure your antivirus is not blocking the program. If necessary, disable the antivirus while running the MOHID SOIL TOOL.<br><br>
-If the exported shapefile is only partially filled (incorrect size), verify the following:<br>
-a) Ensure that the user-provided shapefile (study area) is fully contained within the provided soil type map shapefile.<br><br>
-
-[Back to Top](#table-of-contents)
-
-## Usage Guidelines
-- Always start by importing the watershed shapefile and corresponding soil type shapefiles.
-- Follow the process step-by-step: import files, process data, calculate parameters, adjust factors, and export results.
-- Regularly update the software from the GitHub repository to ensure compatibility and access to new features.
-
-[Back to Top](#table-of-contents)
-
-## Conclusion
-MOHID SOIL TOOL (MST) Version 4.0.0 offers a comprehensive solution for calculating and adjusting soil hydraulic parameters, a crucial step in hydrological modeling using MOHID-Land. It can also simulate compaction conditions by modifying density values. Its intuitive interface, robust data processing capabilities, and seamless integration with the Rosetta API ensure accurate parameterization for diverse hydrological scenarios.
 
 [Back to Top](#table-of-contents)
 
