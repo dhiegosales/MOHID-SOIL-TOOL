@@ -12,9 +12,10 @@ The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can
 7. [User Interface Overview](#user-interface-overview)
 9. [Troubleshooting](#troubleshooting)
 10. [Usage Guidelines](#usage-guidelines)
-11. [Download Data from Embrapa](#download-data-from-embrapa)
-12. [Conclusion](#conclusion)
-13. [Citation](#citation)
+11. [Field Auto-Filling](#field-auto-filling)
+12. [Download Data from Embrapa](#download-data-from-embrapa)
+13. [Conclusion](#conclusion)
+14. [Citation](#citation)
 
 ## Introduction
 Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOOL (MST), is designed to process soil texture data and estimate hydraulic soil parameters for hydrological modeling. Developed using Python 3, MST features a graphical user interface (GUI) and is compatible with Windows 10/11 x64 operating systems. The executable version of MST can be accessed from the GitHub repository at [MOHID SOIL TOOL](https://github.com/dhiegosales/MOHID_SOIL_TOOL), ensuring accessibility and ease of use. MST was specifically developed to support hydrological studies by providing precise soil parameter inputs required for models like MOHID-Land.
@@ -137,6 +138,23 @@ a) Ensure that the user-provided shapefile (study area) is fully contained withi
 - Always start by importing the watershed shapefile and corresponding soil type shapefiles.
 - Follow the process step-by-step: import files, process data, calculate parameters, adjust factors, and export results.
 - Regularly update the software from the GitHub repository to ensure compatibility and access to new features.
+
+[Back to Top](#table-of-contents)
+
+
+## Field Auto-Filling
+
+### Description
+This function is designed to automatically fill the fields in graphical user interface (GUI) windows based on the last execution of the program. If the `inputFileNames.txt` file is not found in the current directory, the fields are initialized as empty or with default values. If the file exists, the values contained within it are read and used to populate the corresponding fields in the interface.
+
+This approach facilitates the continuity of work, allowing parameters and files used in the previous execution to be automatically reused.
+
+#### Function Logic
+1. **File Existence Check**: The program checks if the `inputFileNames.txt` file exists in the current directory.
+2. **Field Initialization**: If the file is not found, the fields are initialized as empty or with default values.
+3. **Reading Values**: If the file is found, its values are read and used to fill the GUI fields.
+4. **Parameters**: The filled parameters include input file paths (such as shapefiles or other necessary data), and user configurations from the previous execution.
+5. **File Update/Creation**: Every time the program closes, this file is updated if it exists or created in the executable folder if not already present.
 
 [Back to Top](#table-of-contents)
 
