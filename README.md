@@ -161,46 +161,50 @@ This approach facilitates the continuity of work, allowing parameters and files 
 ## Download Data from Embrapa
 Open the software and configure paths to shapefiles and rasters according to your data sources. For downloading necessary shapefiles and raster data from Embrapa, use the following links:
 
+- [GEOINFO EMBRAPA](https://geoinfo.dados.embrapa.br/#/)
+
+**Note:** These are external links to the official Embrapa website. They may eventually stop functioning if the site structure changes. Please verify if the Embrapa website is operational and if the links have changed their address before attempting to download the data.
+
 - **Shapefiles:**
   - Soil Type Shapefiles:
-    - Use either [Brasil Soil Type](http://geoinfo.cnps.embrapa.br/layers/geonode%3Abrasil_solos_5m_20201104) or [Rio de Janeiro Soil Type](http://geoinfo.cnps.embrapa.br/layers/geonode%3Asolos_lat_long_wgs84) for soil type data.
+    - Use either [Brasil Soil Type](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/1688) or [Rio de Janeiro Soil Type](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/4762) for soil type data.
 
 - **Raster Data:**
   - **Bulk Density:**
     - **Layers:**
-      - [0-5cm](http://geoinfo.cnps.embrapa.br/documents/3487)
-      - [5-15cm](http://geoinfo.cnps.embrapa.br/documents/3489)
-      - [15-30cm](http://geoinfo.cnps.embrapa.br/documents/3491)
-      - [30-60cm](http://geoinfo.cnps.embrapa.br/documents/3493)
-      - [60-100cm](http://geoinfo.cnps.embrapa.br/documents/3495)
-      - [100-200cm](http://geoinfo.cnps.embrapa.br/documents/3497)
+      - [0-5cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2959)
+      - [5-15cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2961)
+      - [15-30cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2969)
+      - [30-60cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2972)
+      - [60-100cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2974)
+      - [100-200cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2975)
 
   - **Silt:**
     - **Layers:**
-      - [0-5cm](http://geoinfo.cnps.embrapa.br/documents/3358)
-      - [5-15cm](http://geoinfo.cnps.embrapa.br/documents/3360)
-      - [15-30cm](http://geoinfo.cnps.embrapa.br/documents/3362)
-      - [30-60cm](http://geoinfo.cnps.embrapa.br/documents/3364)
-      - [60-100cm](http://geoinfo.cnps.embrapa.br/documents/3366)
-      - [100-200cm](http://geoinfo.cnps.embrapa.br/documents/3368)
+      - [0-5cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2751)
+      - [5-15cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2787)
+      - [15-30cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2756)
+      - [30-60cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2795)
+      - [60-100cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2796)
+      - [100-200cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2797)
 
   - **Sand:**
     - **Layers:**
-      - [0-5cm](http://geoinfo.cnps.embrapa.br/documents/3319)
-      - [5-15cm](http://geoinfo.cnps.embrapa.br/documents/3321)
-      - [15-30cm](http://geoinfo.cnps.embrapa.br/documents/3323)
-      - [30-60cm](http://geoinfo.cnps.embrapa.br/documents/3325)
-      - [60-100cm](http://geoinfo.cnps.embrapa.br/documents/3327)
-      - [100-200cm](http://geoinfo.cnps.embrapa.br/documents/3329)
+      - [0-5cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2610)
+      - [5-15cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2611)
+      - [15-30cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2612)
+      - [30-60cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2613)
+      - [60-100cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2638)
+      - [100-200cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2639)
 
   - **Clay:**
     - **Layers:**
-      - [0-5cm](http://geoinfo.cnps.embrapa.br/documents/3292)
-      - [5-15cm](http://geoinfo.cnps.embrapa.br/documents/3293)
-      - [15-30cm](http://geoinfo.cnps.embrapa.br/documents/3294)
-      - [30-60cm](http://geoinfo.cnps.embrapa.br/documents/3295)
-      - [60-100cm](http://geoinfo.cnps.embrapa.br/documents/3296)
-      - [100-200cm](http://geoinfo.cnps.embrapa.br/documents/3297)
+      - [0-5cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2708)
+      - [5-15cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2709)
+      - [15-30cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2711)
+      - [30-60cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2724)
+      - [60-100cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2739)
+      - [100-200cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2740)
 
 [Back to Top](#table-of-contents)
 
