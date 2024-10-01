@@ -1,6 +1,6 @@
 ## Version Information
 This manual applies to **MOHID SOIL TOOL [version 4.0.0]**.  <br><br>
-The previous version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User_Manual.md).  
+The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User_Manual.md).  
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -90,7 +90,7 @@ Upon initiating the simulation, the system reads the table and sets a default va
 ### Operational Algorithm
 The operational algorithm ensures precise processing from data importation to final export, supporting robust scientific analysis and streamlining workflows for water resource studies.
 
-![image](https://github.com/user-attachments/assets/a9e988d7-babf-4839-85fa-f4cacd81aa89)
+![image](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v.4.0.0_Algorithm.jpg?raw=true)
 
 [Back to Top](#table-of-contents)
 
