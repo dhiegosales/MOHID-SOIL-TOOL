@@ -91,7 +91,7 @@ Upon initiating the simulation, the system reads the table and sets a default va
 ### Operational Algorithm
 The operational algorithm ensures precise processing from data importation to final export, supporting robust scientific analysis and streamlining workflows for water resource studies.
 
-![image](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v.4.0.0_Algorithm.jpg?raw=true)
+![image](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v4.0.0_Algorithm.jpg?raw=true)
 
 [Back to Top](#table-of-contents)
 
