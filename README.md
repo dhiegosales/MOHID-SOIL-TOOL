@@ -98,7 +98,7 @@ The operational algorithm ensures precise processing from data importation to fi
 ## User Interface Overview
 The MST interface is divided into several sections and contains numerous buttons and options, enabling step-by-step progress through the data processing workflow.
 
-![MST GUI](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v.4.0.1_GUI.png)
+![MST GUI](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v4.0.1_GUI.png)
 
 **Menus and Options:**
 - **Help:** A help menu is available with a 'Instructions', 'Troblueshooting' and  'About' option to assist user in MOHID Soil Tool using.
