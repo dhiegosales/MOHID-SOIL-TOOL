@@ -1,5 +1,5 @@
 ## Version Information
-This manual applies to **MOHID SOIL TOOL [version 4.0.1]**.  <br><br>
+This manual applies to **MOHID SOIL TOOL [version 4.0.0 or above]**.  <br><br>
 The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User_Manual.md).  
 
 ## Table of Contents
