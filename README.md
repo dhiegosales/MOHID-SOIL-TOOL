@@ -31,7 +31,7 @@ Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOO
 
 ## Installation
 **Downloading the Executable:**
-1. Access the [download link](https://github.com/dhiegosales/MOHID-SOIL-TOOL/releases/download/v4.0.2/MOHID_SOIL_TOOL_version4_0_2.zip).
+1. Access the [download link](https://github.com/dhiegosales/MOHID-SOIL-TOOL/releases/download/v4.0.2/MOHID_SOIL_TOOL_version4_0_3.zip).
 2. Extract the executable files to a folder of your choice.
 
 **Initial Setup:**
@@ -216,7 +216,7 @@ MOHID SOIL TOOL (MST) Version 4.0.0 and above offers a comprehensive solution fo
 ## Citation
 If you use this software, please cite it as follows:
 
-Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 4.0.2) [Computer software]. https://github.com/dhiegosales/MOHID-SOIL-TOOL. Accessed xx xxx xxxx.
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 4.0.3) [Computer software]. https://github.com/dhiegosales/MOHID-SOIL-TOOL. Accessed xx xxx xxxx.
 
 For any issues or further assistance, please contact Dhiego da Silva Sales at [dhiego.sales@outlook.com](mailto:dhiego.sales@outlook.com).
 
