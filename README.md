@@ -3,8 +3,9 @@ This manual applies to **MOHID SOIL TOOL [version 4.0.0 or above]**.  <br><br>
 The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User_Manual.md).  
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [System Requirements](#system-requirements)
+1. [Presentation](#presentation)
+2. [Introduction](#introduction)
+3. [System Requirements](#system-requirements)
 4. [Installation](#installation)
 6. [Detailed Description of MOHID SOIL TOOL](#detailed-description-of-mohid-soil-tool)
    - [Integration with MOHID-Land](#integration-with-mohid-land)
@@ -15,13 +16,28 @@ The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can
 11. [Field Auto-Filling](#field-auto-filling)
 12. [Download Data from Embrapa](#download-data-from-embrapa)
 13. [Conclusion](#conclusion)
-14. [Citation](#citation)
+14. [References](#references)
+15. [Citation](#citation)
 
-## Introduction
+## Presentatiom
 Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOOL (MST), is designed to process soil texture data and estimate hydraulic soil parameters for hydrological modeling. Developed using Python 3, MST features a graphical user interface (GUI) and is compatible with Windows 10/11 x64 operating systems. The executable version of MST can be accessed from the GitHub repository at [MOHID SOIL TOOL](https://github.com/dhiegosales/MOHID_SOIL_TOOL), ensuring accessibility and ease of use. MST was specifically developed to support hydrological studies by providing precise soil parameter inputs required for models like MOHID-Land.
 
 [Back to Top](#table-of-contents)
 
+## Introduction
+MOHID Land is an open-source hydrological model, programmed in Fortran, based on physical principles, spatially distributed, and capable of simulating the various phases of the hydrological cycle. The partial differential equations for mass conservation are solved using the finite volume approach, where each cell has a defined volume, all its properties are homogeneous within, and the velocities are homogeneous on the faces of the volume [1].
+
+The soil is discretized in a 3D domain, where the upper boundary is the topography, and the lower boundary is defined by the user. Between these boundaries, the soil is defined in vertical horizons, which may have different hydraulic properties and thicknesses. MOHID Land calculates soil water retention using the van Genuchten model, which depends on the following hydraulic properties: 𝜃𝑠, the saturated water content; 𝜃𝑟, the residual water content; 𝛼, related to the inverse of the air entry pressure; 𝑛, a measure of pore size distribution; and 𝐾𝑠𝑎𝑡, the saturated hydraulic conductivity [2].
+
+Establishing the values for all these hydraulic properties for each soil type within a watershed and for each defined horizon is a labor-intensive task that requires research and technical expertise from the modeler, making it a significant challenge in hydrological modeling. Given the complexity of obtaining soil hydraulic properties, the Artificial Neural Network-based model Rosetta was developed [3, 4, 5]. This model uses more easily obtainable physical parameters to estimate the soil's hydraulic properties, such as the percentages of sand, silt, and clay; soil bulk density; volumetric water content at 33 kPa; and volumetric water content at 1500 kPa. It features a web interface [6], an R API [7], and a Python API [8].
+
+The Brazilian Agricultural Research Corporation (EMBRAPA) is responsible for mapping the soil types across the country and their various properties, providing several geospatial products in raster and shapefile formats for download on the portal http://geoinfo.dados.embrapa.br. The input parameters for the Rosetta model (sand, clay, silt, and bulk density) are estimated by EMBRAPA from nationwide sampling, then interpolated using statistical procedures and spatialized into 90m resolution pixels at various depths (0-5, 5-15, 15-30, 30-60, 60-100, and 100-200 cm) [9, 10].
+
+Through exhaustive geoprocessing procedures, data on sand, silt, clay, and bulk density can be extracted from EMBRAPA's products for each soil type, input into one of the Rosetta versions, and used to create ASCII files, which are then implemented in MOHID Land. Given the time-consuming, repetitive, and exhaustive nature of data processing and file creation for MOHID Land, the application of the MOHID SOIL TOOL is fully justified.
+
+The MOHID SOIL TOOL is a Windows 10/11 x64-based graphical interface tool developed in Python 3, designed to streamline the preparation of data for the MOHID Land hydrological model. It follows a comprehensive process, starting with the import and preprocessing of soil physical parameters provided by EMBRAPA. The tool then simulates soil compaction and calculates the hydraulic properties for each soil type within the user's watershed using the Rosetta-soil Python API. Additionally, it adjusts Van Genuchten (VGM) parameters and constructs the necessary ASCII input files for the MOHID Land model, along with any accessory files. This approach makes the entire process more efficient and intuitive, significantly saving time in the development of hydrological models.
+
+[Back to Top](#table-of-contents)
 
 ## System Requirements
 - **Operating System:** Windows 10/11 x64
@@ -57,6 +73,7 @@ MOHID-Land is a hydrological modeling system utilizing the finite volume method 
       - Brazil silt raster (provided by Embrapa)
       - Brazil clay raster (provided by Embrapa)
       - Density raster (provided by Embrapa)
+   - *The tool is versatile and flexible, allowing the incorporation of any available raster data from both global and local sources into the study.
         
 **b) Processing Input Files:** The tool clips soil type shapefiles using the watershed shapefile as a mask and calculates percentages of sand, silt, clay, and density for each soil polygon within the watershed folowuing these steps:
    - Processing Shapefiles:
@@ -213,6 +230,53 @@ MOHID SOIL TOOL (MST) Version 4.0.0 and above offers a comprehensive solution fo
 
 [Back to Top](#table-of-contents)
 
+## References
+[1] Mohid wiki (2023). Equations in Mohid Land. Disponível em: 
+<http://wiki.mohid.com/index.php?title=Equations_in_Mohid_Land>. Acesso em 04 
+de setembro de 2023.
+
+[2] Mohid wiki (2023). Module Porous Media. Disponível em: 
+<http://wiki.mohid.com/index.php?title=Module_PorousMedia>. Acesso em 04 de 
+setembro de 2023.
+
+[3] M. G. Schaap, F. J. Leij and M.T. Van Genuchten. 2001. ROSETTA: a computer 
+program for estimating soil hydraulic parameters with hierarchical pedotransfer 
+functions. Journal of Hydrology 251(3-4): 163-176. doi: 10.1016/S0022-
+1694(01)00466-8
+
+[4] M. G. Schaap, A. Nemes, and M.T. van Genuchten. 2004. Comparison of Models 
+for Indirect Estimation of Water Retention and Available Water in Surface Soils. 
+Vadose Zone Journal 3(4): 1455-1463. doi: 10.2136/vzj2004.1455
+
+[5] Y. Zhang and M. G. Schaap. 2017. Weighted recalibration of the Rosetta 
+pedotransfer model with improved estimates of hydraulic parameter distributions and 
+summary statistics (Rosetta3). Journal of Hydrology 547: 39-53. 
+doi: 10.1016/j.jhydrol.2017.01.004
+
+[6] Rosetta 2023. Estimate unsaturated soil hydraulic parameters from soil 
+characterization data. Disponível em: < https://www.handbook60.org/rosetta/>. 
+Acesso em 05 de setembro de 2023.
+
+[7] D. Beaudette, R. Reid and T. Skaggs. 2022. ROSETTA Model API. Disponível 
+em: < http://ncss-tech.github.io/AQP/soilDB/ROSETTA-API.html>. Acesso em 05 de 
+setembro de 2023.
+
+[8] M. Schaap and Y. Zhang. 2016. Implementação do modelo de função de 
+pedotransferência Rosetta para previsão de parâmetros hidráulicos de solos não 
+saturados. Disponível em: <https://github.com/usda-ars-ussl/rosetta-soil>. Acesso 
+em 05 de setembro de 2023.
+
+[9] G. M. Vasques, M. R. Coelho, R. O. Dart, L. C. Cintra, and J. F. M. Baca. Soil 
+Clay, Silt and Sand Content Maps for Brazil at 0-5, 5-15, 15-30, 30-60, 60-100 and 
+100-200 cm Depth Intervals with 90 m Spatial Resolution, Embrapa Solos, Rio de 
+Janeiro, Brazil, 2021.
+
+[10] G. M. Vasques, M. R. Coelho, R. O. Dart, L. C. Cintra, and J. F. M. Baca. Soil 
+Bulk Density Maps for Brazil at 0-5, 5-15, 15-30, 30-60, 60-100 and 100-200 cm 
+Depth Intervals with 90 m Spatial Resolution, Embrapa Solos, Rio de Janeiro, Brazil, 
+2021.
+
+[Back to Top](#table-of-contents)
 ## Citation
 If you use this software, please cite it as follows:
 
