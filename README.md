@@ -3,7 +3,7 @@ This manual applies to **MOHID SOIL TOOL [version 4.0.0 or above]**.  <br><br>
 The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can be accessed [here](https://github.com/dhiegosales/MOHID-SOIL-TOOL/blob/main/v2.0.0_and_v3.0.0_User_Manual.md).  
 
 ## Table of Contents
-1. [Presentatiom](#presentatiom)
+1. [Presentation](#presentation)
 2. [Introduction](#introduction)
 3. [System Requirements](#system-requirements)
 4. [Installation](#installation)
@@ -19,7 +19,7 @@ The previous manual version, **MOHID SOIL TOOL [Versions 2.0.0 and 3.0.0]**, can
 14. [References](#references)
 15. [Citation](#citation)
 
-## Presentatiom
+## Presentation
 Welcome to the Soil Analysis Program. This software, known as the MOHID SOIL TOOL (MST), is designed to process soil texture data and estimate hydraulic soil parameters for hydrological modeling. Developed using Python 3, MST features a graphical user interface (GUI) and is compatible with Windows 10/11 x64 operating systems. The executable version of MST can be accessed from the GitHub repository at [MOHID SOIL TOOL](https://github.com/dhiegosales/MOHID_SOIL_TOOL), ensuring accessibility and ease of use. MST was specifically developed to support hydrological studies by providing precise soil parameter inputs required for models like MOHID-Land.
 
 [Back to Top](#table-of-contents)
