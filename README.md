@@ -223,6 +223,8 @@ Open the software and configure paths to shapefiles and rasters according to you
       - [60-100cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2739)
       - [100-200cm](https://geoinfo.dados.embrapa.br/catalogue/#/dataset/2740)
 
+Alternatively, the input data and the results obtained by the MOHID Soil Tool (MST) can be accessed in the dataset created by da Silva Sales, D. (2025): Supplementary Soil Dataset for Enhancing River Flow Predictions in MOHID-Land Through Integration of Gridded Soil Data and Hydraulic Parameters Using the MOHID Soil Tool (1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14914611. This dataset incorporates soil data from EMBRAPA, which were used in the paper "Enhancing River Flow Predictions in MOHID-Land Through Integration of Gridded Soil Data and Hydraulic Parameters Using the MOHID Soil Tool."
+
 [Back to Top](#table-of-contents)
 
 ## Conclusion
