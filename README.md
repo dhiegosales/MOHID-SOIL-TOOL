@@ -282,7 +282,7 @@ Depth Intervals with 90 m Spatial Resolution, Embrapa Solos, Rio de Janeiro, Bra
 ## Citation
 If you use this software, please cite it as follows:
 
-Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 4.0.3) [Computer software]. https://github.com/dhiegosales/MOHID-SOIL-TOOL. Accessed xx xxx xxxx.
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 4.1.0) [Computer software]. https://github.com/dhiegosales/MOHID-SOIL-TOOL. Accessed xx xxx xxxx.
 
 For any issues or further assistance, please contact Dhiego da Silva Sales at [dhiego.sales@outlook.com](mailto:dhiego.sales@outlook.com).
 
