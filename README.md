@@ -311,10 +311,42 @@ Depth Intervals with 90 m Spatial Resolution, Embrapa Solos, Rio de Janeiro, Bra
 
 [Back to Top](#table-of-contents)
 ## Citation
+
 If you use this software, please cite it as follows:
 
-Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). MOHID SOIL TOOL - Computational Tool for Determining Soil Water Percolation Parameters (Version 4.1.1) [Computer software]. https://github.com/dhiegosales/MOHID-SOIL-TOOL. Accessed xx xxx xxxx.
+### Software Reference
 
-For any issues or further assistance, please contact Dhiego da Silva Sales at [dhiego.sales@outlook.com](mailto:dhiego.sales@outlook.com).
+> Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024).  
+> *MOHID SOIL TOOL – Computational Tool for Determining Soil Water Percolation Parameters* (Version 4.1.1) [Computer software].  
+> Available at: [https://github.com/dhiegosales/MOHID-SOIL-TOOL](https://github.com/dhiegosales/MOHID-SOIL-TOOL).  
+> Accessed: *xx xxx xxxx*.
+
+---
+
+### Scientific Publications
+
+#### **1. Tool Development and Release**
+
+> da Silva Sales, D., de Andrade Costa, D., Junior, J. L., de Jesus, R. J. N., & da Silva Neto, A. J. (2025).  
+> *Enhancing River Flow Predictions in MOHID-Land Through Integration of Gridded Soil Data and Hydraulic Parameters Using the MOHID Soil Tool.*  
+> *Environmental Modelling & Software*, 106751.  
+> [https://doi.org/10.1016/j.envsoft.2025.106751](https://doi.org/10.1016/j.envsoft.2025.106751)
+
+#### **2. Sensitivity Analysis and Parameter Evaluation**
+
+> Sales, D. D. S., Lugon Junior, J., Costa, D. D. A., Sales, R. S. B., Neves, R. J., & Silva Neto, A. J. D. (2025).  
+> *Sensitivity Analysis of Soil Hydraulic Parameters for Improved Flow Predictions in an Atlantic Forest Watershed Using the MOHID-Land Platform.*  
+> *Eng*, 6(4), 65.  
+> [https://doi.org/10.3390/eng6040065](https://doi.org/10.3390/eng6040065)
+
+> Sales, D. D. S., Costa, D. D. A., Lugon Junior, J., Neves, R. J., & Silva Neto, A. J. D. (2025).  
+> *A Deterministic Combinatorial Approach to Investigate Interactions of Soil Hydraulic Parameters on River Flow Modelling.*  
+> *Water*, 17(17), 2627.  
+> [https://doi.org/10.3390/w17172627](https://doi.org/10.3390/w17172627)
+
+---
+
+For any issues or further assistance, please contact **Dhiego da Silva Sales** at [dhiego.sales@outlook.com](mailto:dhiego.sales@outlook.com).
 
 [Back to Top](#table-of-contents)
+
